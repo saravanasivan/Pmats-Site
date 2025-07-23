@@ -2,59 +2,32 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import solidTopMat from "@/assets/solid-top-mat.jpg";
 import interlockingMat from "@/assets/interlocking-mat.jpg";
 import rubberTileMat from "@/assets/rubber-tile-mat.jpg";
-import evaPuzzleNormal from "@/assets/eva-puzzle-normal.jpg";
-import evaPuzzleHigh from "@/assets/eva-puzzle-high.jpg";
-import variationsCollection from "@/assets/variations-collection.jpg";
 
 const ProductsSection = () => {
   const products = [
     {
-      type: "Solid Top Gym Mat",
-      size: "3ft x 3ft",
+      type: "Solid Top Gym Mats",
+      size: "3ft x 3ft  (91cmx91cm)",
       thickness: "16mm",
       weight: "8–8.5 kg",
       description: "Premium solid surface gym mats perfect for heavy equipment and high-intensity workouts.",
       image: solidTopMat
     },
     {
-      type: "4-Side Interlocking Mat",
+      type: "Cow Mats",
       size: "50cm x 50cm – 1m x 1m",
       thickness: "8mm–16mm",
       weight: "2.5–15 kg",
-      description: "Versatile interlocking system for easy installation and customizable coverage areas.",
+      description: "Interlocking Mats, 2 Side Diamond Top, 4 Side Amoeba Top, Hammer Top & Bubble Top.",
       image: interlockingMat
     },
     {
-      type: "Rubber Tile Type Mat",
-      size: "50cm x 50cm – 60cm x 60cm",
-      thickness: "10–14mm",
+      type: "Rubber Puzzle Gym Mats",
+      size: "1mtr x 1mtr",
+      thickness: "8mm, 10mm, 12mm, 16mm",
       weight: "2.5–4.2 kg",
       description: "Durable rubber tiles with excellent grip and shock absorption properties.",
       image: rubberTileMat
-    },
-    {
-      type: "EVA Puzzle (Normal Density)",
-      size: "1m x 1m",
-      thickness: "20–32mm",
-      weight: "Lightweight",
-      description: "Comfortable foam mats ideal for floor exercises and play areas.",
-      image: evaPuzzleNormal
-    },
-    {
-      type: "EVA Puzzle (High Density)",
-      size: "1m x 1m",
-      thickness: "25–37mm",
-      weight: "Medium weight",
-      description: "High-density foam for enhanced durability and support during intensive training.",
-      image: evaPuzzleHigh
-    },
-    {
-      type: "Specialty Variations",
-      size: "Various",
-      thickness: "Custom",
-      weight: "Varies",
-      description: "Including Galaxy Tile, Amoeba Top, EPDM Roll, Lightweight, LDP Sole, and EVA Colour Tile options.",
-      image: variationsCollection
     }
   ];
 
